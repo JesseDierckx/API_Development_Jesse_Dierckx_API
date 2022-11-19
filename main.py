@@ -39,9 +39,9 @@ players = [
 
 player = {0: players}
 
-#@app.post("/players/post/", response_model=list[players])
-#async def create_player(players: Player):
-#    return players
+@app.post("/players/post/", response_model=list[players])
+async def create_player(players: Player):
+    return players
 
 @app.get("/players/get/")
 async def get_player():
