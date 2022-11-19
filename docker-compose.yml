@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+ python-service:
+  image: python:3.10-slim-buster
+  ports:
+    - "8000:8000"
