@@ -1,6 +1,6 @@
 version: "3.9"
 services:
- python-api:
-  image: python:3.10-slim-buster
+ api:
+  image: r0793084/api-development-jesse-dierckx-api
   ports:
-    - "8080:8080"
+    - "8000:8000"
