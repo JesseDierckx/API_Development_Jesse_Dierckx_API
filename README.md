@@ -32,56 +32,56 @@ Voordat we starten met elke screenshot zie je foto's bijkomen dit zijn de screen
 
 ## Aantoonbaar totale werking api doormiddel van screenshots van postman requests
 
-![img.png](assets/img.png)
-![img_1.png](assets/img_1.png)
+![img.png](img.png)
+![img_1.png](img_1.png)
 Deze screenshots hierboven zijn screenshots van de nba.py file waar mijn twee post functies en twee get functies instaan.
 
 
 Hieronder zal ik doormiddel van postman screenshots laten zien vand de werking van de 2 post functies en de twee get functies.
 
 dus als eerste de post en get functie van player:
-![img_5.png](assets/img_5.png)
-![img_3.png](assets/img_3.png)
+![img_5.png](img_5.png)
+![img_3.png](img_3.png)
 Zoals je hierboven al ziet heb ik twee keer dezelfde post per ongeluk gerunt, dit is waarom dezelfde player 2 keer is aangemaakt.
 
 
 Dan als volgende de post en get functie van team:
-![img_4.png](assets/img_4.png)
-![img_6.png](assets/img_6.png)
+![img_4.png](img_4.png)
+![img_6.png](img_6.png)
 dit is dan ook gebeurd bij teams zoals je kan zien maar dit is alleen op localhost gebeurd niet op de hosted api zoals je hieronder kan zien:
-![img_7.png](assets/img_7.png)
+![img_7.png](img_7.png)
 
 ## Open API Screenshots
-![img_8.png](assets/img_8.png)
-![img_9.png](assets/img_9.png)
-![img_10.png](assets/img_10.png)
-![img_11.png](assets/img_11.png)
+![img_8.png](img_8.png)
+![img_9.png](img_9.png)
+![img_10.png](img_10.png)
+![img_11.png](img_11.png)
 
 ## Deploying van de docker container
 Deployen van de docker container gebeurt doormiddel van de Dockerfile, de docker-compose.yml file en de github workflow file zoals ik hieronder laat zien:
 
 #### de Dockerfile:
-![img_13.png](assets/img_13.png)
+![img_13.png](img_13.png)
 #### de docker-compose.yml file:
-![img_14.png](assets/img_14.png)
+![img_14.png](img_14.png)
 #### de github workflow file:
-![img_12.png](assets/img_12.png)
+![img_12.png](img_12.png)
 
 Dit is allemaal succesvol gelopen zoals je kan zien aan de screenshots van de github actions en okteto build screens:
 #### Github actions:
-![img_15.png](assets/img_15.png)
+![img_15.png](img_15.png)
 
 #### Okteto:
-![img_16.png](assets/img_16.png)
+![img_16.png](img_16.png)
 
 En tenslotte de frontend deze heb ik wel kunnen delpoyen maar niet aan de praat gekregen zoals je hieronder ziet:
 
 #### Deployment
-![img_17.png](assets/img_17.png)
+![img_17.png](img_17.png)
 
 #### Error messages op de pagina zelf
-![img_18.png](assets/img_18.png)
-![img_19.png](assets/img_19.png)
+![img_18.png](img_18.png)
+![img_19.png](img_19.png)
 
 p.s de link helemaal vanboven is om naar mijn contributors pagina te gaan van mijn API repository.
 
