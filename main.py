@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from pydantic import BaseModel, Field
+from pydantic import BaseModel
 
 
 app = FastAPI()
@@ -33,4 +33,4 @@ async def create_player(player: Player):
 
 @app.get("/get/")
 async def get_player():
-    return player
+    return players
